@@ -6,14 +6,14 @@ const work: ProjectCardProps[] = [
         title: "shine.com.au",
         description: "Australia’s #1 law firm’s digital transformation.",
         icon: "/assets/images/shine-logo.jpg",
-        image: "/assets/images/shine-website.png",
+        image: "/assets/images/shine-website.webp",
         link: "https://shine.com.au",
     },
     {
         title: "Shine Lawyers Booking System",
         description: "Justice, now within reach.",
         icon: "/assets/images/shine-logo.jpg",
-        image: "/assets/images/online-booking-tool.png",
+        image: "/assets/images/online-booking-tool.webp",
         link: "https://shine.com.au/check-my-case/motor-vehicle-accident",
     },
     {
