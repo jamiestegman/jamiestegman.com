@@ -44,9 +44,6 @@ export default function Home() {
             </div>
 
             <div className="mt-8 md:mt-24">
-                {/* <h3 className="mb-4 text-xl font-light text-muted-foreground">
-                    Things I’ve worked on
-                </h3> */}
                 <section>
                     <div className="grid grid-cols-1 gap-6 py-10 sm:grid-cols-2">
                         {work.map((project) => (
