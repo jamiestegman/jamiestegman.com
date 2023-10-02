@@ -4,5 +4,8 @@
         "plugin:@next/eslint-plugin-next/recommended",
         "prettier",
         "plugin:tailwindcss/recommended"
-    ]
+    ],
+    "rules": {
+        "@next/next/no-img-element": "off"
+    }
 }

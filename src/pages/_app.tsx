@@ -4,6 +4,7 @@ import type { AppProps } from "next/app";
 import { Analytics } from "@vercel/analytics/react";
 
 import { Inter } from "next/font/google";
+import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -15,6 +16,9 @@ export default function App({ Component, pageProps }: AppProps) {
                     letter-spacing: -0.025em;
                 }
             `}</style>
+            <Head>
+                <title>Jamie Stegman - Software Engineer</title>
+            </Head>
             <Component {...pageProps} />
             <Analytics />
         </ThemeProvider>
